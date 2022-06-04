@@ -1,17 +1,15 @@
 import 'dart:io';
 
+import 'package:face_net_authentication/pages/home.dart';
 import 'package:face_net_authentication/pages/widgets/app_button.dart';
 import 'package:flutter/material.dart';
 
-import 'home.dart';
 import 'dart:math' as math;
 
 class Profile extends StatelessWidget {
   const Profile(this.username, {Key key, this.imagePath}) : super(key: key);
   final String username;
   final String imagePath;
-
-
 
   @override
   Widget build(BuildContext context) {
@@ -74,7 +72,6 @@ class Profile extends StatelessWidget {
                     Divider(
                       height: 30,
                     ),
-
                   ],
                 ),
               ),
